@@ -26,3 +26,27 @@ body {
 .nav-bar > h1 {
   color: #5bd7fc;
 }
+
+.main {
+  background-color: #282D35;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  height: 100vh;
+}
+
+.main > h1 {
+  margin-bottom: 1rem;
+  font-size: 3em;
+}
+
+.main-list > li {
+  font-size: 1.5em;
+}
+
+.main-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.2em;
+}
